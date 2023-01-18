@@ -24,7 +24,7 @@ public class TodoListApplication {
 		return args -> {
 			todoRepo.save(new Todo("Homework", "Chemistry, Physics and Mathematics", sdf.format(new Date()), false));
 			todoRepo.save(new Todo("Clean kitchen", "Kitchen counter, shelves, table, chairs", sdf.format(new Date()), false));
-			todoRepo.save(new Todo("Visit Mike", "At 6pm, saturday night", sdf.format(new Date()), true));
+			todoRepo.save(new Todo("Visit Steve", "At 6pm, saturday night", sdf.format(new Date()), true));
 		};
 	}
 }
